@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 80%;
+    margin: 0 auto;  
+}
+
+.menu_bar{
+    margin-top: 20px;
+    background-color: black;
+    min-height: 50px;
+    
+}
+.menu_bar ul{list-style: none;}
+.menu_bar ul li{float: left; position: relative;}
+.menu_bar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 13px 60px;
+    display: block;
+    transition: 1s;
+    border-right: 1px solid organge;
+    
+}
+
+.menu_bar ul li:last-child a{
+    border-right: none;
+    
+}
+
+
+.menu_bar ul li a:hover{
+    background-color: orange;
+    transform: scale(1.1);
+    color: black;
+}
+
+/*Dropdown Style*/
+
+.menu_bar ul li ul{
+    background-color: black;
+    min-height: 180px;
+    position: absolute;
+    left: -999999px;
+    transition: 1s;
+}
+
+.menu_bar ul li:hover ul{
+    left: 0;
+}
+
+.menu_bar ul li ul li{
+    clear: both;
+}
+.menu_bar ul li ul li a{
+    border-right: none;
+    padding: 18px 30px;
+    width: 180px;
+    border-bottom: 1px solid orange;
+}
+.menu_bar ul li ul li last-child a:{
+   border-bottom: none; 
+}
+.menu_bar ul li ul li a:hover{}
+
+
+/*image gallery*/
+
+.single_image{
+    border: 1px solid black;
+width: 23%;
+transition: 1s;
+float: left;
+margin: 28px 5%;
+    
+}
+    
+.single_image:hover{
+    transform: scale(1.2);
+    
+}
+
+.single_image .caption{
+    text-align: center;
+}
+.single_image .caption p{
+    color: blueviolet;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 8px;
+}
+.single_image .image{
+    width: 60%;
+    margin: 15px auto;
+}
+.single_image .image img{
+    width: 100%;
+}
+
+.footer{
+    clear: both;
+    margin-bottom: 30px;
+}
+
+
+/*forms*/
+
+#fname {
+    text-align: center;
+width: 300px;
+height: 30px;
+font-size: 15px;
+font-weight: initial;
+border: 1px solid orange;
+
+}
+
+#lname {
+    text-align: center;
+width: 300px;
+height: 30px;
+font-size: 15px;
+font-weight: initial;
+border: 1px solid orange;
+}
+
+#password {
+    text-align: center;
+width: 300px;
+height: 30px;
+font-size: 15px;
+font-weight: initial;
+border: 1px solid orange;
+}
+
+#education {
+}
+
+#education {
+}
+
+#messege {
+}
+
+.footer {
+    
+}
+
+.wrapper {
+}
+
+.forms {
+}
+
+.submit{
+    float: right;
+height: 30px;
+width: 17%;
+font-size: medium;
+font-weight: bolder;
+}
+
+.form-group {
+   background-color: aqua;
+    text-align: center;
+    font-weight: bolder;
+}
